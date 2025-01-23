@@ -15,9 +15,9 @@ const taskSchema = new mongoose.Schema({
 
 const Task = mongoose.model('Task', taskSchema);
 
-// Route pour obtenir la liste des tâches
+// Route pour obtenir la liste de toutes les tâches (version modifiée)
 app.get('/tasks', (req, res) => {
-  res.send('Liste des tâches');
+  res.send('Liste de toutes les tâches');
 });
 
 // Route pour ajouter une tâche
