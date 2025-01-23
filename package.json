@@ -1,7 +1,12 @@
 {
+  "name": "projetfinal",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "mongoose": "^8.9.5"
-  }
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {}
 }
